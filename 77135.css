@@ -1753,7 +1753,8 @@ display:none!important;
 }
 
 a[href*="prf.hn"] {
-display:none!important;
+	font:inherit;
+	pointer-events:none;
 }
 
 a[href="http://partnerprogramma.bol.com/click/click?p=1&t=url&s=2853&url=http%3A%2F%2Fwww.bol.com"],a[href="http://partnerprogramma.bol.com/click/click?p=1&t=url&s=2853&url=http%3A%2F%2Fwww.bol.com"]:hover {
@@ -1849,3 +1850,7 @@ pointer-events:none;
 #pll_top,#funlists{
      display:none!important;
 }
+
+/* img.rde_img_default[src*='https://i.fokzine.net/upload/']{
+    display:none;
+}*/
