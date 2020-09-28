@@ -1744,10 +1744,10 @@ a[href*="url=bol homepage"] {
 display:none!important;
 }
 #ibood
-a[href*=ad.zanox.com] {
+a[href="https://ad.zanox.com/ppc/?26911877C91004375T"] {
 display:none!important;
 }
-
+#bol
 a[href*="bol%20homepage"] {
 display:none!important;
 }
@@ -1761,8 +1761,16 @@ a[href="http://partnerprogramma.bol.com/click/click?p=1&t=url&s=2853&url=http%3A
 display:none;
 }
 #unibet
-a[href*=dspk.kindredplc.com] {
+a[href*="dspk.kindredplc.com"] {
 	display:none!important;	
+}
+#vodafone
+a[href="https://bit.ly/32WH7pi"] {
+	display:none!important;	
+}
+#ziggo
+a[href="https://bit.ly/2EEsdLf"] {
+	display:none!important;
 }
 
 #abonewsbar, .abonewsbar {
