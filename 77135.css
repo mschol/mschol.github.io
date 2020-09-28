@@ -1728,6 +1728,25 @@ custom-menu-title > img {
 vertical-align:middle;
 }
 
+.forumoptionbar a {
+ display:inline;
+ padding:0px 6px;
+ color:#E4E4E4;
+}
+
+.forumoptionbar a:hover {
+background:#000000;
+padding:2px 6px;
+}
+
+.forumoptionbar > .atLinks {
+ display:inline;
+}
+
+.forumoptionbar:third-child {
+	background-color:#AC8359;
+}
+
 /* .bottomCrumbHolder > .fieldholder.footmenu {
  display:none !important;
 } */ 
@@ -1743,11 +1762,11 @@ display:block;
 a[href*="url=bol homepage"] {
 display:none!important;
 }
-#ibood
+/*ibood*/
 a[href="https://ad.zanox.com/ppc/?26911877C91004375T"] {
 display:none!important;
 }
-#bol
+/*#bol*/
 a[href*="bol%20homepage"] {
 display:none!important;
 }
@@ -1760,15 +1779,15 @@ a[href*="prf.hn"] {
 a[href="http://partnerprogramma.bol.com/click/click?p=1&t=url&s=2853&url=http%3A%2F%2Fwww.bol.com"],a[href="http://partnerprogramma.bol.com/click/click?p=1&t=url&s=2853&url=http%3A%2F%2Fwww.bol.com"]:hover {
 display:none;
 }
-#unibet
+/*unibet*/
 a[href*="dspk.kindredplc.com"] {
 	display:none!important;	
 }
-#vodafone
+/*vodafone*/
 a[href="https://bit.ly/32WH7pi"] {
 	display:none!important;	
 }
-#ziggo
+/*ziggo*/
 a[href="https://bit.ly/2EEsdLf"] {
 	display:none!important;
 }
@@ -1799,8 +1818,7 @@ a[href="https://bit.ly/2EEsdLf"] {
     height:12px;
     width:12px;
     text-indent:900%;
-	margin-top:1px;
-}
+	margin-top:1px;}
 .editquote > span[title="edit deze post"]:hover {
     display:inline-block;
     background-image: url("/img/edit.png"); 
@@ -1820,25 +1838,6 @@ margin-bottom: 2px;
 
 padding:2px 6px;
 background:rgba(32,32,32,.8);
-}
-
-.forumoptionbar a {
- display:inline;
- padding:0px 6px;
- color:#E4E4E4;
-}
-
-.forumoptionbar a:hover {
-background:#000000;
-padding:2px 6px;
-}
-
-.forumoptionbar > .atLinks {
- display:inline;
-}
-
-.forumoptionbar:third-child {
-	background-color:#AC8359;
 }
 
 /* resize youtube plaatjes */
