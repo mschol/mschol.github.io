@@ -1784,7 +1784,7 @@ a[href*="dspk.kindredplc.com"] {
 	display:none!important;	
 }
 /*vodafone*/
-a[href="https://bit.ly/32WH7pi"] {
+a[href="https://vodafone.nl"] {
 	display:none!important;	
 }
 /*ziggo*/
@@ -1860,6 +1860,39 @@ pointer-events:none;
 
 #pll_top,#funlists{
      display:none!important;
+}
+
+.pollHolder {
+ background-color: azure;
+ border:1px solid #000000;
+ border-radius:10px;
+}
+.pollTitle {
+ margin-left:10px;
+ font-size:15px;
+ font-weight:bold;
+}
+
+.pollinfo {
+font-size:8px;
+margin-left:10px;
+}
+
+.showpollOption {
+    background-color: rgba(224, 224, 224, 1);
+    margin: 1px;
+    margin-bottom: 2px;
+    margin-top: 5px;
+    max-width: 50%;
+    height: 15px;
+}
+
+.userVoted {
+    background-color: rgba(252, 209, 19, 1)!important;
+}
+.totalvotecount{
+margin-left:1px;
+font-style:italic;
 }
 
 /* img.rde_img_default[src*='https://i.fokzine.net/upload/']{
