@@ -765,7 +765,7 @@ img.rde_img_rightalign{ float:right;margin:0 0 4px 10px; }
 .postreply		{margin-left:160px;margin-bottom:10px;font-size:10px;}
 .postreply_left	{font-size:9px;height:100px;display:block;margin-top:260px;float:left;}
 .post_postcount	{color:#aaa;font-size:9px;margin-right:8px;}
-.post_right		{float:right;margin:0px 8px 0px 0px;text-align:right;min-width:500px;line-height:15px;}
+.post_right		{float:right;margin:0px 8px 0px 0px;text-align:right;min-width:550px;line-height:15px; width:75%;}
 .post_sec		{color:#aaa;}
 
 .post_sub		{font-size:10px;letter-spacing:-.5px;font-weight:normal;color:#808080;position:absolute;top:3px;left:40px;}
@@ -1596,9 +1596,12 @@ div.post_right:hover span.iconbar.hidden{
 }
 
 div.post_right br{ 
-	display:inline;
+	content:"";
 }
 
+div.post_right br:after{ 
+	content:" ";
+}
 
 
 .default-tipsy { font-size: 11px; position: absolute; padding: 8px; z-index: 999999; }
@@ -1701,16 +1704,17 @@ div.foruminfo{ display:none; }
 .fa { font: normal normal normal 14px/1 arial,helvetica,sans-serif!important; }
 .topicOptionHolder {text-align:left; display:inline; float:left; }
 .pageLinks {font-size:10px; margin-right: 10px;}
-.fa-bookmark:before { background-image: url("/img/bookmark.png"); }
-.fa-bookmark { background-image: url("/img/bookmark.png"); }
+.fa-bookmark:before { background-image: url("/img/bookmark.png"); background-repeat:no-repeat; content: "\0a00 \0a00 \0a00";}
+.fa-bookmark { background-image: url("/img/bookmark.png"); background-repeat:no-repeat; content: "\0a00 \0a00 \0a00";}
 .fa-exclamation-triangle { 
 background-image: url("/img/mod.png"); 
 background-repeat: no-repeat; 
 background-position: center;
+	content: "\0a00 \0a00 \0a00";
 }
 .fa-thumbs-up { display:none!important; }
 
-.fa-print {background-image: url("/img/printer.png"); }
+.fa-print {background-image: url("/img/printer.png"); background-repeat:no-repeat; }
 .fa-arrow-left { background-image: url("/img/leftprev.png"); background-repeat:no-repeat; }
 .fa-arrow-right { background-image: url("/img/rightnext.png"); background-repeat:no-repeat; }
 .fa-step-forward { background-image: url("/img/rightend.png"); background-repeat:no-repeat; }
@@ -1803,6 +1807,8 @@ a[href="https://bit.ly/2EEsdLf"] {
     height:12px;
     width:12px;
     text-indent:900%;
+    repeat:no-repeat;
+	padding-right: 4px;
 }
 
 .editquote > span[title="quote deze post (linker alt + click voor multiquote)"] {
@@ -1819,7 +1825,9 @@ a[href="https://bit.ly/2EEsdLf"] {
     height:12px;
     width:12px;
     text-indent:900%;
-	margin-top:1px;}
+	margin-top:1px;
+}
+
 .editquote > span[title="edit deze post"]:hover {
     display:inline-block;
     background-image: url("/img/edit.png"); 
