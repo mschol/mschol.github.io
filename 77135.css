@@ -2049,6 +2049,18 @@ li.showpollOption{
     float: left;
 }
 
+
+#search { display: inline; }
+#search * { font-size: 11px;
+    padding: 2px 8px;
+    margin-top: 3px;
+    line-height: 14px;
+    display: inline;
+    background-color: #444;
+    color: #f8f8f8;
+    border: 1px solid #666;}
+        
+
 /* img.rde_img_default[src*='https://i.fokzine.net/upload/']{
     display:none;
 }*/
