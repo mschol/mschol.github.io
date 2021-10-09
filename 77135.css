@@ -1701,6 +1701,7 @@ div.foruminfo{ display:none; }
 .fa { font: normal normal normal 14px/1 arial,helvetica,sans-serif!important; }
 .topicOptionHolder {text-align:left; display:inline; float:left; }
 .pageLinks {font-size:10px; margin-right: 10px;}
+.fa-bookmark:before { background-image: url("/img/bookmark.png"); }
 .fa-bookmark { background-image: url("/img/bookmark.png"); }
 .fa-exclamation-triangle { 
 background-image: url("/img/mod.png"); 
