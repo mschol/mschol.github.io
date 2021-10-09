@@ -1704,8 +1704,8 @@ div.foruminfo{ display:none; }
 .fa { font: normal normal normal 14px/1 arial,helvetica,sans-serif!important; }
 .topicOptionHolder {text-align:left; display:inline; float:left; }
 .pageLinks {font-size:10px; margin-right: 10px;}
-.fa-bookmark:before { background-image: url("/img/bookmark.png"); background-repeat:no-repeat; content: url("/img/bookmark.png");}
-.fa-bookmark { background-image: url("/img/bookmark.png"); background-repeat:no-repeat; content: url("/img/bookmark.png");}
+.fa-bookmark:before { background-repeat:no-repeat; content: url("/img/bookmark.png");}
+.fa-bookmark { background-repeat:no-repeat; content: url("/img/bookmark.png");}
 .fa-exclamation-triangle { 
 background-image: url("/img/mod.png"); 
 background-repeat: no-repeat; 
@@ -1719,6 +1719,8 @@ background-position: center;
 .fa-arrow-right { background-image: url("/img/rightnext.png"); background-repeat:no-repeat; }
 .fa-step-forward { background-image: url("/img/rightend.png"); background-repeat:no-repeat; }
 .fa-step-backward { background-image: url("/img/leftend.png"); background-repeat:no-repeat; }
+.custom-menu-title > .fa-caret-down { background-repeat:no-repeat; content: url("/img/menudowngrey.png") }
+.custom-menu-title > .fa-caret-down:hover { background-repeat:no-repeat; content: url("/img/menudown.png") }
 .topBarOptionHolder {float:right; text-align: right!important; display:inline; background-color:none;}
 div.inline { display:inline; text-align: left; }
 .topbarOptionMenu { background-color:transparent; }
