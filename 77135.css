@@ -1809,7 +1809,7 @@ a[href="https://bit.ly/2EEsdLf"] {
     height:12px;
     width:12px;
     text-indent:900%;
-    repeat:no-repeat;
+    backgroudn-repeat:no-repeat;
 	padding-right: 4px;
 }
 
@@ -1828,6 +1828,8 @@ a[href="https://bit.ly/2EEsdLf"] {
     width:12px;
     text-indent:900%;
 	margin-top:1px;
+	margin-right:4px;
+	vertical-align:middle;
 }
 
 .editquote > span[title="edit deze post"]:hover {
@@ -1837,6 +1839,7 @@ a[href="https://bit.ly/2EEsdLf"] {
     width:12px;
     text-indent:900%;
 	margin-top:1px;
+	margin-right:4px;
 }
 
 .forumoptionbar {
