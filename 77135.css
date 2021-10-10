@@ -1714,13 +1714,13 @@ background-position: center;
 }
 .fa-thumbs-up { display:none!important; }
 
-.fa-print {content: url("/img/printer.png"); background-repeat:no-repeat; }
+.fa-print {content: url("/img/printer.png"); background-image:url("/img/printer.png"); background-repeat:no-repeat; }
 .fa-arrow-left { background-image: url("/img/leftprev.png"); background-repeat:no-repeat; }
 .fa-arrow-right { background-image: url("/img/rightnext.png"); background-repeat:no-repeat; }
 .fa-step-forward { background-image: url("/img/rightend.png"); background-repeat:no-repeat; }
 .fa-step-backward { background-image: url("/img/leftend.png"); background-repeat:no-repeat; }
-.custom-menu-title > .fa-caret-down { background-repeat:no-repeat; content: url("/img/menudowngrey.png") }
-.custom-menu-title > .fa-caret-down:hover { background-repeat:no-repeat; content: url("/img/menudown.png") }
+.custom-menu-title > .fa-caret-down { background-repeat:no-repeat; content: url("/img/menudowngrey.png"); }
+.custom-menu-title > .fa-caret-down:hover { background-repeat:no-repeat; content: url("/img/menudown.png"); background-image:url("/img/menudown.png"); }
 .topBarOptionHolder {float:right; text-align: right!important; display:inline; background-color:none;}
 div.inline { display:inline; text-align: left; }
 .topbarOptionMenu { background-color:transparent; }
@@ -1778,9 +1778,10 @@ a[href*="bol%20homepage"] {
 display:none!important;
 }
 
-a[href*="prf.hn"] {
+a[href*="prf.hn"][title="Kopen bij Coolblue? Steun FOK! en gebruik deze link"] {
 	font:inherit;
 	pointer-events:none;
+	display:none;
 }
 
 a[href="http://partnerprogramma.bol.com/click/click?p=1&t=url&s=2853&url=http%3A%2F%2Fwww.bol.com"],a[href="http://partnerprogramma.bol.com/click/click?p=1&t=url&s=2853&url=http%3A%2F%2Fwww.bol.com"]:hover {
@@ -1809,7 +1810,7 @@ a[href="https://bit.ly/2EEsdLf"] {
     height:12px;
     width:12px;
     text-indent:900%;
-    backgroudn-repeat:no-repeat;
+    background-repeat:no-repeat;
 	padding-right: 4px;
 }
 
