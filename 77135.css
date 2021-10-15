@@ -689,8 +689,6 @@ div.contents>a		{color:#1072ba;}
 
 input[type=range] {
   -webkit-appearance: none;
-  margin: 10px 0;
-  width: 25%;
 }
 
 input[type=range]:focus {
