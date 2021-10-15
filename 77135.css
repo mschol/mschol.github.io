@@ -784,7 +784,7 @@ img.rde_img_rightalign{ float:right;margin:0 0 4px 10px; }
 .editorbutleft > .fa-image-polaroid { background-repeat: no-repeat; background-position: center; background-image: url("/img/e/picture.png"); }
 .editorbutleft > .fa-list-ul { background-repeat: no-repeat; background-position: center; background-image: url("/img/e/list-bullet.png"); }
 .editorbutleft > .fa-minus { background-repeat: no-repeat; background-position: center; background-image: url("/img/e/spoiler.png"); }
-.editorbutleft > .fa-code { background-repeat: no-repeat; background-position: center; background-image: url("/img/e/code"); }
+.editorbutleft > .fa-code { background-repeat: no-repeat; background-position: center; background-image: url("/img/e/code.png"); }
 .editorbutleft > .fa-php{ background-repeat: no-repeat; background-position: center; background-image: url("/img/e/php.png"); }
 
 .fieldholder	{position:relative;width:100%;background:#f8f8f8;display:block;border:1px solid #aaa;}
