@@ -687,6 +687,12 @@ div.contents>a		{color:#1072ba;}
 .sliderTopicsafari{ position: absolute; top: 15px; left:0px; height: 8px; width: 90px; }
 .sliderTopicopera { position: absolute; top: 17px; left:0px; height: 4px; width: 90px; }
 
+input[type=range] {
+  -webkit-appearance: none;
+  margin: 10px 0;
+  width: 25%;
+}
+
 input[type=range]::-webkit-slider-runnable-track {
  width: 25%;
   height: 8px;
