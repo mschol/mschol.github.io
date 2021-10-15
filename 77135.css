@@ -132,13 +132,14 @@
 /***************************************************************************************//* first row of buttons */
 .markItUpHeader ul li{list-style:none;float:left;position:relative}
 .markItUpHeader ul li:hover >ul{display:block}
-.markItUpHeader ul .markItUpDropMenu{background:transparent url(http://i.fokzine.net/templates/forum2009/images/menu.png) no-repeat 115% 50%;margin-right:5px}
+/* .markItUpHeader ul .markItUpDropMenu{background:transparent url(http://i.fokzine.net/templates/forum2009/images/menu.png) no-repeat 115% 50%;margin-right:5px} */
+.markItUpHeader ul .markItUpDropMenu{background:transparent url('/img/menu.png') no-repeat 115% 50%;margin-right:5px; }
 .markItUpHeader ul .markItUpDropMenu li{margin-right:0px}
 
 /* next rows of buttons */
 .markItUpHeader ul ul{display:none;position:absolute;top:18px;left:0px;background:#FFF;border:1px solid #000}
 .markItUpHeader ul ul li{float:none;border-bottom:1px solid #000}
-.markItUpHeader ul ul .markItUpDropMenu{background:#FFF url(http://i.fokzine.net/templates/forum2009/css/images/submenu.png) no-repeat 100% 50%}
+.markItUpHeader ul ul .markItUpDropMenu{background:#FFF url('/img/submenu.png') no-repeat 100% 50%}
 .markItUpHeader ul .markItUpSeparator{margin-left:2px;margin-right:6px;width:1px;height:14px;overflow:hidden;background-color:#CCC}
 .markItUpHeader ul ul .markItUpSeparator{width:auto;height:1px;margin:0px}
 
@@ -188,14 +189,14 @@ table.tablesorter thead tr .headerSortDown,table.tablesorter thead tr .headerSor
 .ui-widget-header{border:1px solid #4297d7;background:#2191c0 url("/img/ui-bg_gloss-wave_75_2191c0_500x100.png") 50% 50% repeat-x;color:#eaf5f7;font-weight:bold}
 .ui-widget-header a{color:#eaf5f7}
 /* Interaction states----------------------------------*/
-.ui-state-default,.ui-widget-content .ui-state-default{border:1px solid #77d5f7;background:#0078ae url(images/ui-bg_glass_45_0078ae_1x400.png) 50% 50% repeat-x;font-weight:normal;color:#fff;outline:none}
+.ui-state-default,.ui-widget-content .ui-state-default{border:1px solid #77d5f7;background:#0078ae url("/img/ui-bg_glass_45_0078ae_1x400.png") 50% 50% repeat-x;font-weight:normal;color:#fff;outline:none}
 .ui-state-default a,.ui-state-default a:link,.ui-state-default a:visited{color:#fff;text-decoration:none;outline:none}
 .ui-state-hover,.ui-widget-content .ui-state-hover,.ui-state-focus,.ui-widget-content .ui-state-focus{border:1px solid #448dae;background:#79c9ec url(/img/ui-bg_glass_75_79c9ec_1x400.png) 50% 50% repeat-x;font-weight:normal;color:#026890;outline:none}
 .ui-state-hover a,.ui-state-hover a:hover{color:#026890;text-decoration:none;outline:none}
-.ui-state-active,.ui-widget-content .ui-state-active{border:1px solid #acdd4a;background:#6eac2c url(/img/ui-bg_gloss-wave_50_6eac2c_500x100.png) 50% 50% repeat-x;font-weight:normal;color:#fff;outline:none}
+.ui-state-active,.ui-widget-content .ui-state-active{border:1px solid #acdd4a;background:#6eac2c url("/img/ui-bg_gloss-wave_50_6eac2c_500x100.png") 50% 50% repeat-x;font-weight:normal;color:#fff;outline:none}
 .ui-state-active a,.ui-state-active a:link,.ui-state-active a:visited{color:#fff;outline:none;text-decoration:none}
 /* Interaction Cues----------------------------------*/
-.ui-state-highlight,.ui-widget-content .ui-state-highlight{border:1px solid #fcd113;background:#f8da4e url(/img/ui-bg_glass_55_f8da4e_1x400.png) 50% 50% repeat-x;color:#915608}
+.ui-state-highlight,.ui-widget-content .ui-state-highlight{border:1px solid #fcd113;background:#f8da4e url("/img/ui-bg_glass_55_f8da4e_1x400.png") 50% 50% repeat-x;color:#915608}
 .ui-state-highlight a,.ui-widget-content .ui-state-highlight a{color:#915608}.ui-state-error,.ui-widget-content .ui-state-error{border:1px solid #cd0a0a;background:#e14f1c url(/img/ui-bg_gloss-wave_45_e14f1c_500x100.png) 50% top repeat-x;color:#fff}
 .ui-state-error a,.ui-widget-content .ui-state-error a{color:#fff}
 .ui-state-error-text,.ui-widget-content .ui-state-error-text{color:#fff}
@@ -203,15 +204,15 @@ table.tablesorter thead tr .headerSortDown,table.tablesorter thead tr .headerSor
 .ui-priority-primary,.ui-widget-content .ui-priority-primary{font-weight:bold}
 .ui-priority-secondary,.ui-widget-content .ui-priority-secondary{opacity:.7;filter:Alpha(Opacity=70);font-weight:normal}
 /* Icons----------------------------------*/
-/* states and images */
-.ui-icon{width:16px;height:16px;background-image:url(/images/ui-icons_0078ae_256x240.png)}
-.ui-widget-content .ui-icon{background-image:url(/images/ui-icons_0078ae_256x240.png)}
-.ui-widget-header .ui-icon{background-image:url(/images/ui-icons_d8e7f3_256x240.png)}
-.ui-state-default .ui-icon{background-image:url(/images/ui-icons_e0fdff_256x240.png)}
-.ui-state-hover .ui-icon,.ui-state-focus .ui-icon{background-image:url(/images/ui-icons_056b93_256x240.png)}
-.ui-state-active .ui-icon{background-image:url(/images/ui-icons_f5e175_256x240.png)}
-.ui-state-highlight .ui-icon{background-image:url(/images/ui-icons_f7a50d_256x240.png)}
-.ui-state-error .ui-icon,.ui-state-error-text .ui-icon{background-image:url(/images/ui-icons_fcd113_256x240.png)}
+/* states and images  Edited 15-10-2021 */ 
+.ui-icon{width:16px;height:16px;background-image:url('/img/ui-icons_0078ae_256x240.png')}
+.ui-widget-content .ui-icon{background-image:url('/img/ui-icons_0078ae_256x240.png')}
+.ui-widget-header .ui-icon{background-image:url('/img/ui-icons_d8e7f3_256x240.png')}
+.ui-state-default .ui-icon{background-image:url('/img/ui-icons_e0fdff_256x240.png')}
+.ui-state-hover .ui-icon,.ui-state-focus .ui-icon{background-image:url('/img/ui-icons_056b93_256x240.png')}
+.ui-state-active .ui-icon{background-image:url('/img/ui-icons_f5e175_256x240.png')}
+.ui-state-highlight .ui-icon{background-image:url('/img/ui-icons_f7a50d_256x240.png')}
+.ui-state-error .ui-icon,.ui-state-error-text .ui-icon{background-image:url('/img/ui-icons_fcd113_256x240.png')}
 /* positioning */
 .ui-icon-carat-1-n{background-position:0 0}
 .ui-icon-carat-1-ne{background-position:-16px 0}
@@ -402,8 +403,8 @@ table.tablesorter thead tr .headerSortDown,table.tablesorter thead tr .headerSor
 
 /* Overlays */
 
-.ui-widget-overlay{background:#aaa url(/images/ui-bg_flat_75_aaaaaa_40x100.png) 50% 50% repeat-x;opacity:.30;filter:Alpha(Opacity=30)}
-.ui-widget-shadow{margin:5px 0 0 5px;padding:0px;background:#999 url(/images/ui-bg_flat_55_999999_40x100.png) 50% 50% repeat-x;opacity:.45;filter:Alpha(Opacity=45);-moz-border-radius:5px;-webkit-border-radius:5px}
+.ui-widget-overlay{background:#aaa url('/img/ui-bg_flat_75_aaaaaa_40x100.png') 50% 50% repeat-x;opacity:.30;filter:Alpha(Opacity=30)}
+.ui-widget-shadow{margin:5px 0 0 5px;padding:0px;background:#999 url('/img/ui-bg_flat_55_999999_40x100.png') 50% 50% repeat-x;opacity:.45;filter:Alpha(Opacity=45);-moz-border-radius:5px;-webkit-border-radius:5px}
 
 /* Accordion----------------------------------*/
 
@@ -524,7 +525,7 @@ table.tablesorter thead tr .headerSortDown,table.tablesorter thead tr .headerSor
 .ui-tabs .ui-tabs-nav li a,.ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a{cursor:pointer}/* first selector in group seems obsolete,but required to overcome bug in Opera applying cursor:text overall if defined elsewhere... */.ui-tabs .ui-tabs-panel{padding:1em 1.4em;display:block;border-width:0;background:none}
 .ui-tabs .ui-tabs-hide{display:none !important}
 /* colorpicker */
-.colorpicker{width:356px;height:176px;overflow:hidden;position:absolute;background:url(../images/colorpicker_background.png);font-family:Arial,Helvetica,sans-serif;display:none;z-index:999999}
+.colorpicker{width:356px;height:176px;overflow:hidden;position:absolute;background:url('/img/colorpicker_background.png');font-family:Arial,Helvetica,sans-serif;display:none;z-index:999999}
 .colorpicker_color{width:150px;height:150px;left:14px;top:13px;position:absolute;background:#f00;overflow:hidden;cursor:crosshair}
 .colorpicker_color div{position:absolute;top:0;left:0;width:150px;height:150px;background:url(../images/colorpicker_overlay.png)}
 .colorpicker_color div div{position:absolute;top:0;left:0;width:11px;height:11px;overflow:hidden;background:url(../images/colorpicker_select.gif);margin:-5px 0 0 -5px}
@@ -685,6 +686,34 @@ div.contents>a		{color:#1072ba;}
 .sliderTopicchrome{ position: absolute; top: 15px; left:0px; height: 6px; width: 90px; }
 .sliderTopicsafari{ position: absolute; top: 15px; left:0px; height: 8px; width: 90px; }
 .sliderTopicopera { position: absolute; top: 17px; left:0px; height: 4px; width: 90px; }
+
+input[type=range]::-webkit-slider-runnable-track {
+ width: 25%;
+  height: 8px;
+  cursor: pointer;
+  box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+  background: transparant url('/img/ui-bg_glass_45_0078ae_1x400.png') 50% 50% repeat-x;
+  border-radius: 5px;
+  border: 1px solid #77d5f7;
+  background-clip:border-box;
+  background-origin:padding-box;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+  border: 0px solid #000000;
+  height: 8px;
+  width: 8px;
+  border-radius: 0px;
+  background: rgb(0,120,174);
+  cursor: pointer;
+  -webkit-appearance: none;
+  /*margin-top: -3.6px;*/
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #ac51b5;
+}
 
 :invalid { background-color:#f7dfdd; }
 [required] { border:1px dotted #b79f9d; }
@@ -1202,7 +1231,7 @@ background-image: url('/img/validation.png');
 .altcolor-post-1{background-color:#f8f8f8;}
 .altcolor-post-2{background-color:#f8f8f8;}
 .privateforumcolor{background-color:#f0f0f0;}
-.crewtopic{background-image:url(/img/crewtopic.png);background-repeat:no-repeat;background-position:260px 0px;}
+.crewtopic{background-image:url('/img/crewtopic.png');background-repeat:no-repeat;background-position:260px 0px;}
 .pausespy{position:relative;top:-15px;}
 .spyupdate{padding:10px;background-color:#c0c0c0;color:#d00000;border:1px dotted #d0d0d0;margin-bottom:2px;display:none;cursor:pointer;width:580px;}
 .spypause{float:right;margin-right:44px;margin-top:12px;}
@@ -1333,7 +1362,7 @@ ul.gridSortable li.ui-sortable-placeholder,ul.sortable li.ui-sortable-placeholde
     height:25px;
 }
 .jMax-submit input[type="submit"]{
-    background: #222 url(/img/alert-overlay.png) repeat-x;
+    background: #222 url('/img/alert-overlay.png') repeat-x;
     height:35px;
     float:left;
 	width:100px;
@@ -1719,7 +1748,7 @@ background-position: center;
 .fa-arrow-right { background-image: url("/img/rightnext.png"); background-repeat:no-repeat; }
 .fa-step-forward { background-image: url("/img/rightend.png"); background-repeat:no-repeat; }
 .fa-step-backward { background-image: url("/img/leftend.png"); background-repeat:no-repeat; }
-.custom-menu-title > .fa-caret-down { background-repeat:no-repeat; content: url("/img/menudowngrey.png"); }
+.custom-menu-title > .fa-caret-down { background-repeat:no-repeat; content: url("/img/menudowngrey.png"); background-image:url("/img/menudowngrey.png"); }
 .custom-menu-title > .fa-caret-down:hover { background-repeat:no-repeat; content: url("/img/menudown.png"); background-image:url("/img/menudown.png"); }
 .topBarOptionHolder {float:right; text-align: right!important; display:inline; background-color:none;}
 div.inline { display:inline; text-align: left; }
