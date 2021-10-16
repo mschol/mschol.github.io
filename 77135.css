@@ -735,7 +735,7 @@ img.aUpdated    {margin-right:4px!important;}
 img.icons		{border:0px;width:12px;height:12px;margin:0px 5px 0px 0px!important; cursor:pointer;}
 img.icons_last,.icons_last	{margin-right:10px;}
 img.iewarn		{float:right;margin-right:-6px;margin-left:14px;display:none;cursor:pointer;}
-img.newpmicon,.newpmicon	{margin:0px 10px 0px 3px;}
+img.newpmicon,.newpmicon	{/*margin:0px 10px 0px 3px;*/}
 img.nextpost	{border:0px;width:6px;height:7px;}
 img.online,img.onlineimg{margin:7px 10px 0px 7px;border:0;}
 img.onlinedown	{position:absolute;top:17px;left:24px;display:none;border:0;}
@@ -2096,15 +2096,15 @@ li.showpollOption{
 }
 
 
-#search { display: inline; }
-#search * { font-size: 11px;
-    padding: 2px 8px;
-    margin-top: 3px;
-    line-height: 14px;
-    display: inline;
-    background-color: #444;
-    color: #f8f8f8;
-    border: 1px solid #666;}
+#search { display: inline!important; }
+#search * { font-size: 11px!important;
+    padding: 2px 8px!important;
+    margin-top: 0px!important;
+    line-height: 11px!important;
+    display: inline!important;
+    background-color: #444!important;
+    color: #f8f8f8!important;
+    border: 1px solid #666!important;}
         
 
 /* img.rde_img_default[src*='https://i.fokzine.net/upload/']{
