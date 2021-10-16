@@ -732,7 +732,7 @@ img.adminicon	{border:0px;margin-left:4px;margin-top:4px;cursor:pointer;}
 img.dots		{margin-left:3px;border:0;}
 img.foklogo		{position:absolute;top:25px;left:10px;}
 img.aUpdated    {margin-right:4px!important;}
-img.icons		{border:0px;width:12px;height:12px;margin:0 5 0 0!important; cursor:pointer;}
+img.icons		{border:0px;width:12px;height:12px;margin:0px 5px 0px 0px!important; cursor:pointer;}
 img.icons_last,.icons_last	{margin-right:10px;}
 img.iewarn		{float:right;margin-right:-6px;margin-left:14px;display:none;cursor:pointer;}
 img.newpmicon,.newpmicon	{margin:0px 10px 0px 3px;}
@@ -1632,7 +1632,7 @@ div.post_right:hover span.iconbar.hidden{
 	display:inline;
 }
 span.iconbar {
-	padding-left:2px;	
+	padding-left:4px;	
 }
 
 div.post_right br{ 
