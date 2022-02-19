@@ -771,7 +771,8 @@ img.rde_img_rightalign{ float:right;margin:0 0 4px 10px; }
 .contents		{padding:15px 10px 25px 10px;width:650px;min-height:80px;overflow:auto;white-space:normal;word-wrap:break-word;}
 .editorbuttons	{margin-bottom:5px;}
 .editorbutleft	{padding-right:8px;margin-right:8px;border-right:1px solid #b0b0b0;}
-.editorbutleft > .fa-bold:before{ background-repeat: no-repeat; background-position: center; background-image: url("/img/e/bold.png"); }
+.editorbutleft > .fa-*::before { content: none; }
+.editorbutleft > .fa-bold{ background-repeat: no-repeat; background-position: center; background-image: url("/img/e/bold.png"); }
 .editorbutleft icon:hover{background-color:#b0b0b0; cursor:pointer;}
 .editorbutleft img:hover{background-color:#b0b0b0; cursor:pointer;}
 .editorbutleft > .fa-italic{ background-repeat: no-repeat; background-position: center; background-image: url("/img/e/italic.png");  }
