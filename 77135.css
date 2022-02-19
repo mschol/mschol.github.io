@@ -771,16 +771,15 @@ img.rde_img_rightalign{ float:right;margin:0 0 4px 10px; }
 .contents		{padding:15px 10px 25px 10px;width:650px;min-height:80px;overflow:auto;white-space:normal;word-wrap:break-word;}
 .editorbuttons	{margin-bottom:5px;}
 .editorbutleft	{padding-right:8px;margin-right:8px;border-right:1px solid #b0b0b0;}
-.editorbutleft > [class^="fa-"]::before { content: none!important; }
-.editorbutleft > [class^="fa-"]:before { content: none!important; }
-.editorbutleft > .fa-bold{ background-repeat: no-repeat; background-position: center; background-image: url("/img/e/bold.png"); }
+.editorbutleft > *[class^="fa-"]:before { content: none; }
+.editorbutleft > .fa-bold{ background-repeat: no-repeat; background-position: center; background-image: url("/img/e/bold.png")!important; }
 .editorbutleft icon:hover{background-color:#b0b0b0; cursor:pointer;}
 .editorbutleft img:hover{background-color:#b0b0b0; cursor:pointer;}
-.editorbutleft > .fa-italic{ background-repeat: no-repeat; background-position: center; background-image: url("/img/e/italic.png");  }
-.editorbutleft > .fa-underline{ background-repeat: no-repeat; background-position: center; background-image: url("/img/e/underline.png");  }
-.editorbutleft > .fa-strikethrough{ background-repeat: no-repeat; background-position: center; background-image: url("/img/e/strike.png");  }
-.editorbutleft > .fa-subscript{ background-repeat: no-repeat; background-position: center; background-image: url("/img/e/sub.png");  }
-.editorbutleft > .fa-superscript{ background-repeat: no-repeat; background-position: center; background-image: url("/img/e/sup.png");  }
+.editorbutleft > .fa-italic{ background-repeat: no-repeat; background-position: center; background-image: url("/img/e/italic.png")!important;  }
+.editorbutleft > .fa-underline{ background-repeat: no-repeat; background-position: center; background-image: url("/img/e/underline.png")!important;  }
+.editorbutleft > .fa-strikethrough{ background-repeat: no-repeat; background-position: center; background-image: url("/img/e/strike.png")!important;  }
+.editorbutleft > .fa-subscript{ background-repeat: no-repeat; background-position: center; background-image: url("/img/e/sub.png")!important;  }
+.editorbutleft > .fa-superscript{ background-repeat: no-repeat; background-position: center; background-image: url("/img/e/sup.png")!important;  }
 
 .editorbutleft > .fa-link{ background-repeat: no-repeat!important; background-position: center!important; background-image: url("/img/e/link.png")!important; }
 .editorbutleft > .fa-image-polaroid { background-repeat: no-repeat; background-position: center; background-image: url("/img/e/picture.png"); }
