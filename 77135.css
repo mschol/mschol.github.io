@@ -772,6 +772,7 @@ img.rde_img_rightalign{ float:right;margin:0 0 4px 10px; }
 .editorbuttons	{margin-bottom:5px;}
 .editorbutleft	{padding-right:8px;margin-right:8px;border-right:1px solid #b0b0b0;}
 .editorbutleft > [class^="fa-"]::before { content: none!important; }
+.editorbutleft > [class^="fa-"]:before { content: none!important; }
 .editorbutleft > .fa-bold{ background-repeat: no-repeat; background-position: center; background-image: url("/img/e/bold.png"); }
 .editorbutleft icon:hover{background-color:#b0b0b0; cursor:pointer;}
 .editorbutleft img:hover{background-color:#b0b0b0; cursor:pointer;}
@@ -786,7 +787,7 @@ img.rde_img_rightalign{ float:right;margin:0 0 4px 10px; }
 .editorbutleft > .fa-list-ul { background-repeat: no-repeat; background-position: center; background-image: url("/img/e/list-bullet.png"); }
 .editorbutleft > .fa-minus { background-repeat: no-repeat; background-position: center; background-image: url("/img/e/spoiler.png"); }
 .editorbutleft > .fa-code { background-repeat: no-repeat; background-position: center; background-image: url("/img/e/code.png"); }
-.editorbutleft > .fa-php{ background-repeat: no-repeat; background-position: center; background-image: url("/img/e/php.png"); }
+.editorbutleft > .fa-php { background-repeat: no-repeat; background-position: center; background-image: url("/img/e/php.png"); }
 
 .fieldholder	{position:relative;width:100%;background:#f8f8f8;display:block;border:1px solid #aaa;}
 .sherlockholder		 {width:810px!important;padding:3px 10px;font-size:12px;}
