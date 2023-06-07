@@ -1831,7 +1831,7 @@ a[href="http://partnerprogramma.bol.com/click/click?p=1&t=url&s=2853&url=http%3A
 display:none;
 }
 /*unibet*/
-a[href*="dspk.kindredplc.com"] {
+a[href*="dspk.kindredplc.com"],a[title="Unibet"] {
 	display:none!important;	
 }
 /*vodafone*/
