@@ -803,7 +803,7 @@ img.rde_img_rightalign{ float:right;margin:0 0 4px 10px; }
 .postreply		{margin-left:160px;margin-bottom:10px;font-size:10px;}
 .postreply_left	{font-size:9px;height:100px;display:block;margin-top:260px;float:left;}
 .post_postcount	{color:#aaa;font-size:9px;margin-right:8px;}
-.post_right		{float:right;margin:0px 8px 0px 0px;text-align:right;min-width:550px;line-height:15px; width:75%;}
+.post_right		{float:right;margin:0px 8px 0px 0px;text-align:right;min-width:550px;line-height:15px; width:75%!important;} // width !important 16-08-2023
 .post_sec		{color:#aaa;}
 
 .post_sub		{font-size:10px;letter-spacing:-.5px;font-weight:normal;color:#808080;position:absolute;top:3px;left:40px;}
