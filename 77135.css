@@ -1754,7 +1754,7 @@ background-repeat: no-repeat;
 background-position: center;
 	content: url("/img/mod.png");
 }
-.fa-thumbs-up { content: url("/img/thumbsup.png"); background-image:url("/img/thumbsup.png"); background-repeat:no-repeat;  }
+.fa-thumbs-up { content: url("/img/thumbsup12.png"); background-image:url("/img/thumbsup12.png"); background-repeat:no-repeat;  }
 
 .fa-print {content: url("/img/printer.png"); background-image:url("/img/printer.png"); background-repeat:no-repeat; }
 .fa-arrow-left { content: url("/img/leftprev.png"); background-image: url("/img/leftprev.png"); background-repeat:no-repeat; }
