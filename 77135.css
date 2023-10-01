@@ -2105,12 +2105,12 @@ li.showpollOption{
 .thumbscore, .thumbscore_faux {
     color: #666;
     position: absolute;
-    right: 42px;
     top: 16px;
     font-size: 16px;
     font-weight: bold;
     cursor: pointer;
 }
+
 .thumbsup, .fauxthumbsUp {
     margin: 5px 5px 0px 3px;	
 }
