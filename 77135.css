@@ -2110,6 +2110,9 @@ li.showpollOption{
     font-weight: bold;
     cursor: pointer;
 }
+.thumbscore:after{
+	content: attr(data-value);
+}
 
 .thumbsup, .fauxthumbsUp {
     margin: 5px 5px 0px 3px;	
