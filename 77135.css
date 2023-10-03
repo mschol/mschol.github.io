@@ -2112,6 +2112,8 @@ li.showpollOption{
 }
 .thumbscore:after{
 	content: attr(data-value);
+	color: #808080;
+	font-size: 9px;
 }
 
 .thumbsup, .fauxthumbsUp {
