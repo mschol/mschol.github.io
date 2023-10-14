@@ -2121,6 +2121,24 @@ li.showpollOption{
 }
 
 <!-- like list -->
+.thumbUserList{
+    float: left;
+    position: relative;
+    z-index: 1;
+    margin-left: 180px;
+    background-color: #d8d8d8;
+    border-radius: 10px;
+    width: 75%;
+    overflow: auto;
+    padding-left:5px;
+}
+
+.closeThumbUL {
+    float: right;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+
 .thumbUserList * {
  list-style-type: none;
 }
