@@ -1756,7 +1756,7 @@ background-position: center;
 }
 .fa-thumbs-up { content: url("/img/thumbsup12.png"); /* background-image:url("/img/thumbsup12.png"); background-repeat:no-repeat; */ }
 .Hasvoted { content: url("/img/thumbsupgray.png"); }
-.thumbOff { content: url("/img/thumbsupgray.png"); }
+.thumbOff { content: url("/img/thumbsupgray.png")!important; }
 .fa-print {content: url("/img/printer.png"); background-image:url("/img/printer.png"); background-repeat:no-repeat; }
 .fa-arrow-left { content: url("/img/leftprev.png"); background-image: url("/img/leftprev.png"); background-repeat:no-repeat; }
 .fa-arrow-right { content: url("/img/rightnext.png"); background-image: url("/img/rightnext.png"); background-repeat:no-repeat; }
@@ -2120,6 +2120,29 @@ li.showpollOption{
     margin: 5px 5px 0px 3px;	
 }
 
+<!-- like list -->
+.thumbUserList * {
+ list-style-type: none;
+}
+.thumbUserList ul {
+overflow-y: auto;
+}
+
+.thumbUserList li {
+  display: inline-block;
+  width: 185px;
+  font-size: 12px;
+  padding: 3px 0;
+}
+
+.thumbUserList img {
+  width: 16px;
+  height: auto;
+  border-radius: 50%;
+  vertical-align: bottom;
+  margin-right: 7px;
+}
+	
 #search { display: inline!important; }
 #search * { font-size: 11px!important;
     padding: 2px 8px!important;
