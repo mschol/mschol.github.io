@@ -2121,7 +2121,7 @@ li.showpollOption{
 }
 
 <!-- like list -->
-.thumbUserList:before{
+div.thumbUserList {
     float: left;
     position: relative;
     z-index: 1;
