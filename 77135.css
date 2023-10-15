@@ -2131,6 +2131,7 @@ li.showpollOption{
     width: 75%;
     overflow: auto;
     padding-left:5px;
+    list-style-type: none;
 }
 
 .closeThumbUL {
@@ -2139,9 +2140,10 @@ li.showpollOption{
     padding-top: 5px;
 }
 
-.thumbUserList * {
+/* .thumbUserList * {
  list-style-type: none;
-}
+} */
+
 .thumbUserList ul {
 overflow-y: auto;
 }
