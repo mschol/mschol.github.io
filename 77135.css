@@ -1026,7 +1026,7 @@ div.contents .small		{font-size:10px!important;}
 /* topicgallery */
 #topicgallery			{ width:900px;text-align:left; display:none; margin-bottom:2px; }
 #topicgallery>td		{ text-align:center; }
-.galholder				{ max-width:100%;padding:4px;overflow:auto;overflow:-moz-scrollbars-horizontal;overflow:-web-scrollbars-horizontal;overflow-x:auto;word-wrap:nowrap; }
+.galholder				{ max-width:100%;padding:4px;overflow:-moz-scrollbars-horizontal;overflow:-web-scrollbars-horizontal;overflow:auto;overflow-x:auto;word-wrap:nowrap; }
 .galimgholder			{ display:inline;text-align:center;width:10px; }
 .galimglink>a			{ font-size:9px; color:#808080; }
 .galimglink>a:hover		{ color:#303030; }
@@ -1575,8 +1575,8 @@ height:auto;
 	background-color:#e0e0e0;padding:3px 2px 2px 2px;margin-right:5px;color:#505050;font-size:80%;text-transform:capitalize;border:1px solid #ffffff;
 	background: -moz-linear-gradient(top, #e0e0e0, #d1d1d1);
 	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#e0e0e0), to(#d1d1d1));
-		filter:  progid:DXImageTransform.Microsoft.gradient(startColorStr='#e0e0e0', EndColorStr='#d1d1d1');
 	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#e0e0e0', EndColorStr='#d1d1d1')"; /* IE8 */
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorStr='#e0e0e0', EndColorStr='#d1d1d1');
 	}
 
 /* liScroll styles */
@@ -1650,7 +1650,7 @@ div.post_right br:after{
   .default-tipsy-inner { background-color: #000; color: #FFF; max-width: 200px; padding: 8px 12px 6px 12px; text-align: center; }
 
   /* Rounded corners */
-  .default-tipsy-inner { border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; }
+  .default-tipsy-inner { -webkit-border-radius: 3px; border-radius: 3px; -moz-border-radius: 3px;  }
 
   /* Uncomment for shadow */
   /*.default-tipsy-inner { box-shadow: 0 0 5px #000000; -webkit-box-shadow: 0 0 5px #000000; -moz-box-shadow: 0 0 5px #000000; }*/
