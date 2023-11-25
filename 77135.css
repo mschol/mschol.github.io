@@ -2178,7 +2178,7 @@ overflow-y: auto;
     display:none;
 }*/
 /* beta */
-.post_time_new		{font-size:9px;color:#606060;margin-right:8px;} 
+.post_time_new, post_time_time		{font-size:9px;color:#606060;margin-right:8px;} 
 .ondertitel_new {
     font-size: 10px;
     letter-spacing: -.5px;
