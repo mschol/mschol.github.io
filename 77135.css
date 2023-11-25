@@ -2177,3 +2177,35 @@ overflow-y: auto;
 /* img.rde_img_default[src*='https://i.fokzine.net/upload/']{
     display:none;
 }*/
+/* beta */
+.post_time_new		{font-size:9px;color:#606060;margin-right:8px;} 
+.ondertitel_new {
+    font-size: 10px;
+    letter-spacing: -.5px;
+    font-weight: normal;
+    color: #808080;
+    /* position: absolute; */
+    top: 3px;
+    left: 40px;
+}
+
+/* .uiconholder {
+    font-size: 10px;
+    letter-spacing: -.5px;
+    font-weight: normal;
+    color: #808080;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+} */
+
+.editquote  > span[data-original-title="quote deze post (linker alt + click voor multiquote)"] {
+    display:inline-block;
+    background-image: url("/img/quote.png"); 
+    height:12px;
+    width:12px;
+    text-indent:900%;
+
+.fa-star{
+	content: " ";
+}
