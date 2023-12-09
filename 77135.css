@@ -1755,7 +1755,7 @@ background-position: center;
 	content: url("/img/mod.png");
 }
 .fa-thumbs-up { content: url("/img/thumbsup12.png"); /* background-image:url("/img/thumbsup12.png"); background-repeat:no-repeat; */ }
-.Hasvoted { content: url("/img/thumbsupgray.png")!important; }
+.hasVoted { content: url("/img/thumbsupgray.png")!important; }
 .thumbOff { content: url("/img/thumbsupgray.png")!important; }
 .fa-print {content: url("/img/printer.png"); background-image:url("/img/printer.png"); background-repeat:no-repeat; }
 .fa-arrow-left { content: url("/img/leftprev.png"); background-image: url("/img/leftprev.png"); background-repeat:no-repeat; }
