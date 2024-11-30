@@ -1821,7 +1821,14 @@ a[href*="bol%20homepage"] {
 display:none!important;
 }
 
-a[href*="prf.hn"][title="Kopen bij Coolblue? Steun FOK! en gebruik deze link"] {
+/* a[href*="awin1.com"] */
+[title="Kopen bij Coolblue? Steun FOK! en gebruik deze link"] {
+	font:inherit;
+	pointer-events:none;
+	display:none;
+}
+
+[title~="Bitvavo"] {
 	font:inherit;
 	pointer-events:none;
 	display:none;
