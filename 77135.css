@@ -1822,13 +1822,13 @@ display:none!important;
 }
 
 /* a[href*="awin1.com"] */
-[title="Kopen bij Coolblue? Steun FOK! en gebruik deze link"] {
+a[title="Kopen bij Coolblue? Steun FOK! en gebruik deze link" i] {
 	font:inherit;
 	pointer-events:none;
 	display:none;
 }
 
-[title~="Bitvavo"] {
+a[title*="Bitvavo" i] {
 	font:inherit;
 	pointer-events:none;
 	display:none;
