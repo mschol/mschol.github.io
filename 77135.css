@@ -1808,7 +1808,7 @@ display:none;
 #pageWrappe_r > div.fieldholder.footmenu {
 display:block;
 }
-
+/* sponser links removal */
 a[href*="url=bol homepage"] {
 display:none!important;
 }
@@ -1821,6 +1821,11 @@ a[href*="bol%20homepage"] {
 display:none!important;
 }
 
+a[href*="trickyrock" i] {
+	font:inherit;
+	pointer-events:none;
+	display:none;
+}
 /* a[href*="awin1.com"] */
 a[title="Kopen bij Coolblue? Steun FOK! en gebruik deze link" i] {
 	font:inherit;
