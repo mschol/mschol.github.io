@@ -787,6 +787,10 @@ img.rde_img_rightalign{ float:right;margin:0 0 4px 10px; }
 .editorbutleft > .fa-minus { content: none; background-repeat: no-repeat; background-position: center; background-image: url("/img/e/spoiler.png"); }
 .editorbutleft > .fa-code { content: none; background-repeat: no-repeat; background-position: center; background-image: url("/img/e/code.png"); }
 .editorbutleft > .fa-php { content: none; background-repeat: no-repeat; background-position: center; background-image: url("/img/e/php.png"); }
+.editorbutleft > .fa-twitter { content: none; background-repeat: no-repeat; background-position: center; background-image: url("/img/e/twitter.png"); }
+.editorbutleft > .fa-instagram { content: none; background-repeat: no-repeat; background-position: center; background-image: url("/img/e/php.png"); }
+.editorbutleft > .fa-facebook { content: none; background-repeat: no-repeat; background-position: center; background-image: url("/img/e/php.png"); }
+.editorbutleft > .fa-tiktok { content: none; background-repeat: no-repeat; background-position: center; background-image: url("/img/e/php.png"); }
 
 .fieldholder	{position:relative;width:100%;background:#f8f8f8;display:block;border:1px solid #aaa;}
 .sherlockholder		 {width:810px!important;padding:3px 10px;font-size:12px;}
